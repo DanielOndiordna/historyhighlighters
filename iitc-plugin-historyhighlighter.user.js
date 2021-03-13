@@ -2,10 +2,10 @@
 // @author         DanielOnDiordna
 // @name           IITC plugin: History Highlighters
 // @category       Highlighter
-// @version        0.0.1.20210310.003100
+// @version        0.0.1.20210313.212500
 // @updateURL      https://softspot.nl/ingress/plugins/iitc-plugin-historyhighlighter.meta.js
 // @downloadURL    https://softspot.nl/ingress/plugins/iitc-plugin-historyhighlighter.user.js
-// @description    [danielondiordna-0.0.1.20210310.003100] Highlighters to make use of captured history data. Highlighters to hide all or only all captured portals, with or without ENL and RES portals.
+// @description    [danielondiordna-0.0.1.20210313.212500] Highlighters to make use of captured history data. Highlighters to hide all or only all captured portals, with or without ENL and RES portals. Requires CORE subscription
 // @id             iitc-plugin-historyhighlighters@danielondiordna
 // @namespace      https://softspot.nl/ingress/
 // @match          https://intel.ingress.com/*
@@ -21,12 +21,12 @@ function wrapper(plugin_info) {
     var self = window.plugin.historyhighlighters;
     self.id = 'historyhighlighters';
     self.title = 'History Highlighters';
-    self.version = '0.0.1.20210310.003100';
+    self.version = '0.0.1.20210313.212500';
     self.author = 'DanielOnDiordna';
     self.changelog = `
 Changelog:
 
-version 0.0.1.20210310.003100
+version 0.0.1.20210313.212500
 - first release
 - code was first used inside another plugin, but now moved to a separate plugin
 - added opacity levels for colors
